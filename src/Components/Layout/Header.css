@@ -1,0 +1,46 @@
+.header-container {
+    background-color: rgb(86, 120, 213);
+    padding: 20px;
+    position: relative; /* Add relative positioning */
+  }
+  
+  .header-title {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  
+  .header-links {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; /* Align links to the left */
+  }
+  
+  .header-links li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .header-links li:last-child {
+    margin-right: 0;
+  }
+  .logout-button {
+    position: absolute; /* Add absolute positioning */
+    top: 20px; /* Adjust the top position to your preference */
+    right: 20px; /* Adjust the right position to your preference */
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+  }
