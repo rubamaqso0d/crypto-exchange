@@ -41,10 +41,10 @@ function App() {
     <Router>
       <div>
         <Routes>
-        <Route index  path="/login" element={<LoginUser users={users} onLogin={handleLogin} />} />
+        <Route path="/login" element={<LoginUser users={users} onLogin={handleLogin} />} />
           <Route path="/register-user" element={<RegisterUser onRegister={handleRegister} />} />
           <Route path="/" element={<Layout />}>
-            <Route path="/dashboard" element={<Dashboard />} />
+            {/* <Route path="/dasboard" element={<Dashboard />} /> */}
             <Route path="/Home" element={<Home />} />
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/MenuItems" element={<MenuItems />} />
