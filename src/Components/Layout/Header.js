@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { Link ,useNavigate} from 'react-router-dom';
-import AboutUs from '../AboutUs';
+import Dashboard from '../Dashboard';
 import Home from '../Home'
 import MenuItems from '../MenuItems'
 
@@ -25,7 +25,7 @@ const Header = () => {
          <Link  className="header-title" to="/Home">Home</Link>
        </li>
        <li>
-         <Link className="header-title" to="/AboutUs">About Us</Link>
+         <Link className="header-title" to="/dashboard">Dashboard</Link>
        </li>
        <li>
          <Link  className="header-title"to="/MenuItems">Menu Items</Link>

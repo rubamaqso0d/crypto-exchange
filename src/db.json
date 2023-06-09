@@ -1,0 +1,51 @@
+{
+    "user": "John Doe",
+    "purchased_coins": [
+      {
+        "coin_name": "Bitcoin",
+        "coin_id": "0",
+        "purchase_date": "2023-06-06",
+        "purchase_amount": 0.5,
+        "live_rate": 26642.05138,
+        "current_value": 13321,
+        "chain": "TD"
+      },
+      {
+        "coin_name": "Ethereum",
+        "coin_id": "1",
+        "purchase_date": "2023-06-05",
+        "purchase_amount": 2,
+        "live_rate": 1863.962811,
+        "current_value": 3727.925622,
+        "chain": "Bdd"
+      },
+      {
+        "coin_name": "Ripple",
+        "coin_id": "2",
+        "purchase_date": "2023-06-04",
+        "purchase_amount": 100,
+        "live_rate": 0.585133,
+        "current_value": 58.5133,
+        "chain": "BTD"
+      },
+      {
+        "coin_name": "Litecoin",
+        "coin_id": "3",
+        "purchase_date": "2023-06-03",
+        "purchase_amount": 5,
+        "live_rate": 133.562,
+        "current_value": 667.81,
+        "chain": "ETH"
+      },
+      {
+        "coin_name": "Cardano",
+        "coin_id": "4",
+        "purchase_date": "2023-06-03",
+        "purchase_amount": 500,
+        "live_rate": 1.304,
+        "current_value": 652.0,
+        "chain": "H"
+      }
+    ]
+  }
+  
