@@ -6,3 +6,6 @@ i have upload all screenshots in images folder
 ![login](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/2a4f47ee-15e6-4ee0-8df7-44ec2826e544)
 ![Register](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/524df3c6-fa60-49b3-bea9-620f4f2307bb)
 ![dashboard](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/f20d4f41-6aa6-4e14-ab47-a6ac9b95533a)
+
+![assignment-3](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/4becd5f6-a118-4187-99cc-e9851044273e)
+![assignment-3-redux](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/f77d6816-6a42-4521-963d-f449d14dcde1)
