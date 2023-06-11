@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import LoginUser from '../Components/LoginUser';
+import LoginUser from './LoginUser';
 
 test('renders LoginUser component', () => {
   render(<LoginUser />);

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './RegisterUser.css'; // Import the CSS file
 import { useNavigate,Link } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
-const RegisterUser = ({ onRegister }) => {
+const RegisterUser = ({ onRegister}) => {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -20,9 +20,24 @@ const RegisterUser = ({ onRegister }) => {
 
   const { firstName, lastName, address,email, password, cnic } = formData;
   const navigate = useNavigate(); // Access the navigate function
+
+  const handleCNICChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        const base64String = event.target.result;
+        setFormData((prevState) => ({
+          ...prevState,
+          cnic: base64String,
+        }));
+      };
+      reader.readAsDataURL(file);
+    }
+  };
   const handleChange = (e) => {
     if (e.target.name === 'cnic') {
-      setFormData({ ...formData, [e.target.name]: e.target.files[0] });
+      handleCNICChange(e);
     } else {
       setFormData({ ...formData, [e.target.name]: e.target.value });
     }
@@ -43,9 +58,22 @@ const RegisterUser = ({ onRegister }) => {
       cnic: null,
      
     });
-    toast.success('Registration successful');
+    //toast.success('Registration successful');
     navigate('/login');
   };
+  // useEffect(() => {
+  //   // Load users from local storage on component mount
+  //   const storedUsers = localStorage.getItem('users');
+  //   if (storedUsers) {
+  //     const parsedUsers = JSON.parse(storedUsers);
+  //     setUsers(parsedUsers);
+  //   }
+  // }, []);
+
+  // useEffect(() => {
+  //   // Update local storage whenever users change
+  //   localStorage.setItem('users', JSON.stringify(users));
+  // }, [users]);
 
   return (
     <div className="Auth-form-container">

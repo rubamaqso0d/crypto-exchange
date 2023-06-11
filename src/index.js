@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import rootReducer from './reducers/coinsReducers';
 
+
 const store = configureStore({
   reducer: rootReducer,
   middleware: [thunk]

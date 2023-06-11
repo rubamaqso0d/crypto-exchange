@@ -120,7 +120,7 @@ const Home = () => {
     <Typography variant="h5" component="h2" gutterBottom>
       {modalMode === 'add' ? 'Add Blog' : modalMode === 'edit' ? 'Edit Blog' : 'View Blog'}
     </Typography>
-    <form class="two-column-form">
+    <form className="two-column-form">
       <div className="form-row">
         <TextField
           label="Id"
