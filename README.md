@@ -9,3 +9,5 @@ i have upload all screenshots in images folder
 
 ![assignment-3](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/4becd5f6-a118-4187-99cc-e9851044273e)
 ![assignment-3-redux](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/f77d6816-6a42-4521-963d-f449d14dcde1)
+![netlify-deployed](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/45124b62-d659-4079-9883-98f11b5ea3ea)
+![netlify-pic](https://github.com/rubamaqso0d/crypto-exchange/assets/63006259/6d0cdfcb-798c-4860-89ea-0f2ef561ada2)
